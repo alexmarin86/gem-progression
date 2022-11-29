@@ -7,23 +7,46 @@ function LevelTwentyfour() {
 				depending on class are:
 			</p>
 			<div className="flex gap-4 flex-col md:flex-row">
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a marauder: </span>
-					We take{' '}
-					<span className="underline text-red-400">
-						Determination
-					</span>
-					.
-				</p>
-
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a templar: </span>
-					We take{' '}
-					<span className="underline text-blue-400">
-						Flammability
-					</span>
-					.
-				</p>
+				<div className="border-2 p-6 md:w-1/2">
+					<p className="mb-4">
+						<span className="font-semibold">As a marauder: </span>
+						We take{' '}
+						<span className="underline text-red-400">
+							Determination
+						</span>
+						.
+					</p>
+					<p>
+						Clarissa now sells{' '}
+						<span className="underline text-blue-400">
+							Flammability
+						</span>{' '}
+						and{' '}
+						<span className="underline text-blue-400">
+							Purity of Elements
+						</span>
+						, they are fundamental to your survival and damage
+						therefore you should prioritize buying them asap.
+					</p>
+				</div>
+				<div className="border-2 p-6 md:w-1/2">
+					<p className="mb-4">
+						<span className="font-semibold">As a templar: </span>
+						We take{' '}
+						<span className="underline text-blue-400">
+							Flammability
+						</span>
+						.
+					</p>
+					<p>
+						You can now purchase{' '}
+						<span className="underline text-blue-400">
+							Purity of Elements
+						</span>{' '}
+						from Clarissa. This will boost your resistances so try
+						to grab it asap.
+					</p>
+				</div>
 			</div>
 			<p className="text-yellow-500">
 				**Note: If you are playing RF inquisitor, remember to take{' '}

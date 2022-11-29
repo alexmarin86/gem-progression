@@ -7,23 +7,44 @@ function LevelThirtyeight() {
 				rewards, depending on class are:
 			</p>
 			<div className="flex gap-4 flex-col md:flex-row">
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a marauder: </span>
-					We take{' '}
-					<span className="underline text-blue-400">
-						Increased Area of Effect Support
-					</span>{' '}
-					and save it for later.
-				</p>
-
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a templar: </span>
-					We take{' '}
-					<span className="underline text-blue-400">
-						Ignite Proliferation Support
-					</span>{' '}
-					and slot it in our Armageddon Brand link group.
-				</p>
+				<div className="border-2 p-6 md:w-1/2">
+					<p className="mb-4">
+						<span className="font-semibold">As a marauder: </span>
+						We take{' '}
+						<span className="underline text-blue-400">
+							Increased Area of Effect Support
+						</span>{' '}
+						and save it for later.
+					</p>
+					<p>
+						Petarus and Vanja now sell{' '}
+						<span className="underline text-blue-400">
+							Hextouch Support
+						</span>
+						. You can now automate your curse application.
+					</p>
+				</div>
+				<div className="border-2 p-6 md:w-1/2">
+					<p className="mb-4">
+						<span className="font-semibold">As a templar: </span>
+						We take{' '}
+						<span className="underline text-blue-400">
+							Ignite Proliferation Support
+						</span>{' '}
+						and slot it in our Armageddon Brand link group.
+					</p>
+					<p>
+						Feel free to buy{' '}
+						<span className="underline text-blue-400">
+							Immolate Support
+						</span>{' '}
+						and{' '}
+						<span className="underline text-blue-400">
+							Hextouch Support
+						</span>{' '}
+						from Petarus and Vanja.
+					</p>
+				</div>
 			</div>
 		</div>
 	)

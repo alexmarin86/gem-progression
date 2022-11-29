@@ -8,23 +8,34 @@ function LevelEight() {
 				class are:
 			</p>
 			<div className="flex gap-4 flex-col md:flex-row">
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a marauder: </span>
-					We take{' '}
-					<span className="underline text-red-400">
-						Lifetap Support
-					</span>{' '}
-					and save it for our 4 link setup once we gain access to one.
-				</p>
-
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a templar: </span>
-					We take{' '}
-					<span className="underline text-blue-400">
-						Combustion Support
-					</span>{' '}
-					and slot it in our main 3 link.
-				</p>
+				<div className="border-2 p-6 md:w-1/2">
+					<p className="mb-4">
+						<span className="font-semibold">As a marauder: </span>
+						We take{' '}
+						<span className="underline text-red-400">
+							Lifetap Support
+						</span>{' '}
+						and save it for our 4 link setup once we gain access to
+						one.
+					</p>
+					<p>
+						At this point we can purchase{' '}
+						<span className="underline text-blue-400">
+							Combustion Support
+						</span>{' '}
+						from Nessa and slot it in our primary 3 link.
+					</p>
+				</div>
+				<div className="border-2 p-6 md:w-1/2">
+					<p>
+						<span className="font-semibold">As a templar: </span>
+						We take{' '}
+						<span className="underline text-blue-400">
+							Combustion Support
+						</span>{' '}
+						and slot it in our main 3 link.
+					</p>
+				</div>
 			</div>
 		</div>
 	)

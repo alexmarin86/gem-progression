@@ -10,7 +10,7 @@ function LevelFour() {
 				<div className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a marauder: </span>
 					<ul>
-						<li>
+						<li className="mb-4">
 							Mercy mission: we take{' '}
 							<span className="underline text-green-400">
 								Onslaught Support
@@ -33,7 +33,7 @@ function LevelFour() {
 				<div className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a templar: </span>
 					<ul>
-						<li>
+						<li className="mb-4">
 							Mercy mission: we take{' '}
 							<span className="underline text-blue-400">
 								Arcane Surge Support

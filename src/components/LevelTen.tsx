@@ -7,17 +7,29 @@ function LevelTen() {
 				brute". The rewards, depending on class are:
 			</p>
 			<div className="flex gap-4 flex-col md:flex-row">
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a marauder: </span>
-					We take{' '}
-					<span className="underline text-red-400">Vitality</span>.
-				</p>
-
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a templar: </span>
-					We take{' '}
-					<span className="underline text-red-400">Vitality</span>.
-				</p>
+				<div className="border-2 p-6 md:w-1/2">
+					<p className="mb-4">
+						<span className="font-semibold">As a marauder: </span>
+						We take{' '}
+						<span className="underline text-red-400">Vitality</span>
+						.
+					</p>
+					<p>
+						Nessa now sells{' '}
+						<span className="underline text-red-400">
+							Leap Slam
+						</span>
+						, grab it if you prefer running it for leveling.
+					</p>
+				</div>
+				<div className="border-2 p-6 md:w-1/2">
+					<p>
+						<span className="font-semibold">As a templar: </span>
+						We take{' '}
+						<span className="underline text-red-400">Vitality</span>
+						.
+					</p>
+				</div>
 			</div>
 			<p className="text-yellow-500">
 				**Note: If you are playing RF inquisitor, remember to take{' '}

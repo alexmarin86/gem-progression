@@ -29,6 +29,8 @@ function LevelThirtyone() {
 			<p className="text-yellow-500">
 				**Note: Completing this quest unlocks Siosa's shop, where you
 				can find all the gems level 31 and under, regardless of class.
+				Please check your PoB and purchase the gems you're missing at
+				this point.
 			</p>
 		</div>
 	)
