@@ -20,7 +20,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<main className="flex flex-col gap-8 bg-slate-800 text-white h-screen">
+			<main className="flex flex-col gap-8 bg-slate-800 text-white min-h-screen">
 				<h1 className="text-4xl text-center mt-14">Gem progression</h1>
 				<section className="w-3/4 mx-auto">
 					<div className="px-8 flex flex-col gap-8">

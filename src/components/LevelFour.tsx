@@ -6,8 +6,8 @@ function LevelFour() {
 				At level 4 we complete the quests "Mercy mission" and "Breaking
 				some eggs". The rewards, depending on class are:
 			</p>
-			<div className="flex gap-4">
-				<div className="w-1/2 border-2 p-6">
+			<div className="flex gap-4 flex-col md:flex-row">
+				<div className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a marauder: </span>
 					<ul>
 						<li>
@@ -30,7 +30,7 @@ function LevelFour() {
 						</li>
 					</ul>
 				</div>
-				<div className="w-1/2 border-2 p-6">
+				<div className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a templar: </span>
 					<ul>
 						<li>

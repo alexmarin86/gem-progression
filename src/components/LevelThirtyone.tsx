@@ -7,8 +7,8 @@ function LevelThirtyone() {
 				in the Library, west of the Imperial Gardens. The rewards,
 				depending on class are:
 			</p>
-			<div className="flex gap-4">
-				<p className="w-1/2 border-2 p-6">
+			<div className="flex gap-4 flex-col md:flex-row">
+				<p className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a marauder: </span>
 					We take{' '}
 					<span className="underline text-red-400">
@@ -17,7 +17,7 @@ function LevelThirtyone() {
 					.
 				</p>
 
-				<p className="w-1/2 border-2 p-6">
+				<p className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a templar: </span>
 					We take{' '}
 					<span className="underline text-blue-400">
