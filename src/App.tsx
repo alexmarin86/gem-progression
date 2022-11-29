@@ -14,7 +14,7 @@ import LevelThirtyeight from './components/LevelThirtyeight'
 function App() {
 	const [level, setLevel] = useState<number>(0)
 	const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-		const charLevel = parseInt(e.target.name)
+		const charLevel = parseInt((e.target as HTMLInputElement).name)
 		setLevel(charLevel)
 	}
 
