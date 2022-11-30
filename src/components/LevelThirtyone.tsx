@@ -8,23 +8,53 @@ function LevelThirtyone() {
 				depending on class are:
 			</p>
 			<div className="flex gap-4 flex-col md:flex-row">
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a marauder: </span>
-					We take{' '}
-					<span className="underline text-red-400">
-						Arrogance Support
-					</span>
-					.
-				</p>
-
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a templar: </span>
-					We take{' '}
-					<span className="underline text-blue-400">
-						Burning Damage Support
-					</span>
-					.
-				</p>
+				<div className="border-2 p-6 md:w-1/2">
+					<p className="mb-4">
+						<span className="font-semibold">As a marauder: </span>
+						We take{' '}
+						<span className="underline text-red-400">
+							Arrogance Support
+						</span>
+						.
+					</p>
+					<p>
+						Talk to Siosa to purchase the following gems:{' '}
+						<span className="underline text-blue-400">
+							Efficacy Support
+						</span>
+						,{' '}
+						<span className="underline text-blue-400">
+							Elemental Focus Support
+						</span>
+						,{' '}
+						<span className="underline text-green-400">
+							Trap and Mine Damage Support
+						</span>
+						, and{' '}
+						<span className="underline text-green-400">
+							Fire Trap
+						</span>
+						. Remember to bring Orbs of Transmutation and Alteration
+						along to be able to purchase the gems.
+					</p>
+				</div>
+				<div className="border-2 p-6 md:w-1/2">
+					<p className="mb-4">
+						<span className="font-semibold">As a templar: </span>
+						We take{' '}
+						<span className="underline text-blue-400">
+							Burning Damage Support
+						</span>
+						.
+					</p>
+					<p>
+						Remember to grab{' '}
+						<span className="underline text-green-400">
+							Fire Trap
+						</span>{' '}
+						and level it for the RF transition after cruel lab.
+					</p>
+				</div>
 			</div>
 			<p className="text-yellow-500">
 				**Note: Completing this quest unlocks Siosa's shop, where you
