@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { FC, useState } from 'react'
 import './App.css'
 import LevelTwo from './components/LevelTwo'
 import LevelFour from './components/LevelFour'
@@ -13,6 +13,7 @@ import LevelThirtyeight from './components/LevelThirtyeight'
 
 function App() {
 	const [level, setLevel] = useState<number>(0)
+	const levelsArray = [2, 4, 8, 10, 16, 18, 24, 31, 34, 38]
 	const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
 		const charLevel = parseInt((e.target as HTMLInputElement).name)
 		setLevel(charLevel)
@@ -36,86 +37,16 @@ function App() {
 							further notes instead.
 						</p>
 						<div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:flex flex-row justify-between">
-							<button
-								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
-								name="2"
-								onClick={handleClick}
-							>
-								Level 2
-							</button>
-							<button
-								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
-								name="4"
-								onClick={handleClick}
-							>
-								Level 4
-							</button>
-							<button
-								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500  focus:bg-slate-500"
-								name="8"
-								onClick={handleClick}
-							>
-								Level 8
-							</button>
-							<button
-								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
-								name="10"
-								onClick={handleClick}
-							>
-								Level 10
-							</button>
-							<button
-								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
-								name="16"
-								onClick={handleClick}
-							>
-								Level 16
-							</button>
-							<button
-								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
-								name="18"
-								onClick={handleClick}
-							>
-								Level 18
-							</button>
-							<button
-								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
-								name="24"
-								onClick={handleClick}
-							>
-								Level 24
-							</button>
-							<button
-								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
-								name="31"
-								onClick={handleClick}
-							>
-								Level 31
-							</button>
-							<button
-								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
-								name="34"
-								onClick={handleClick}
-							>
-								Level 34
-							</button>
-							<button
-								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
-								name="38"
-								onClick={handleClick}
-							>
-								Level 38
-							</button>
+							{levelsArray.map((level) => (
+								<button
+									type="button"
+									className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
+									name={level.toString()}
+									onClick={handleClick}
+								>
+									Level {level}
+								</button>
+							))}
 						</div>
 						<div>
 							{level == 2 ? <LevelTwo /> : ''}
