@@ -38,7 +38,7 @@ function App() {
 						<div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:flex flex-row justify-between">
 							<button
 								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl hover:bg-slate-500 px-4 py-3"
+								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
 								name="2"
 								onClick={handleClick}
 							>
@@ -46,7 +46,7 @@ function App() {
 							</button>
 							<button
 								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl hover:bg-slate-500 px-4 py-3"
+								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
 								name="4"
 								onClick={handleClick}
 							>
@@ -54,7 +54,7 @@ function App() {
 							</button>
 							<button
 								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl hover:bg-slate-500 px-4 py-3"
+								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500  focus:bg-slate-500"
 								name="8"
 								onClick={handleClick}
 							>
@@ -62,7 +62,7 @@ function App() {
 							</button>
 							<button
 								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl hover:bg-slate-500 px-4 py-3"
+								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
 								name="10"
 								onClick={handleClick}
 							>
@@ -70,7 +70,7 @@ function App() {
 							</button>
 							<button
 								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl hover:bg-slate-500 px-4 py-3"
+								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
 								name="16"
 								onClick={handleClick}
 							>
@@ -78,7 +78,7 @@ function App() {
 							</button>
 							<button
 								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl hover:bg-slate-500 px-4 py-3"
+								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
 								name="18"
 								onClick={handleClick}
 							>
@@ -86,7 +86,7 @@ function App() {
 							</button>
 							<button
 								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl hover:bg-slate-500 px-4 py-3"
+								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
 								name="24"
 								onClick={handleClick}
 							>
@@ -94,7 +94,7 @@ function App() {
 							</button>
 							<button
 								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl hover:bg-slate-500 px-4 py-3"
+								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
 								name="31"
 								onClick={handleClick}
 							>
@@ -102,7 +102,7 @@ function App() {
 							</button>
 							<button
 								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl hover:bg-slate-500 px-4 py-3"
+								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
 								name="34"
 								onClick={handleClick}
 							>
@@ -110,7 +110,7 @@ function App() {
 							</button>
 							<button
 								type="button"
-								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl hover:bg-slate-500 px-4 py-3"
+								className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
 								name="38"
 								onClick={handleClick}
 							>
