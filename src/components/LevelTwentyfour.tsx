@@ -25,7 +25,7 @@ function LevelTwentyfour() {
 						<span className="underline text-blue-400">
 							Purity of Elements
 						</span>
-						, they are fundamental to your survival and damage
+						; they are fundamental to your survival and damage
 						therefore you should prioritize buying them asap.
 					</p>
 				</div>

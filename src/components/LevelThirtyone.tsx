@@ -42,7 +42,7 @@ function LevelThirtyone() {
 					<p className="mb-4">
 						<span className="font-semibold">As a templar: </span>
 						We take{' '}
-						<span className="underline text-blue-400">
+						<span className="underline text-red-400">
 							Burning Damage Support
 						</span>
 						.
