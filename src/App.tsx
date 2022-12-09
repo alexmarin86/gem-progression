@@ -10,10 +10,12 @@ import LevelTwentyfour from './components/LevelTwentyfour'
 import LevelThirtyone from './components/LevelThirtyone'
 import LevelThirtyfour from './components/LevelThirtyfour'
 import LevelThirtyeight from './components/LevelThirtyeight'
+import { useAutoAnimate } from '@formkit/auto-animate/react'
 
 function App() {
 	const [level, setLevel] = useState<number>(0)
 	const levelsArray = [2, 4, 8, 10, 16, 18, 24, 31, 34, 38]
+	const [animationParent] = useAutoAnimate<HTMLDivElement>()
 	const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
 		const charLevel = parseInt((e.target as HTMLInputElement).name)
 		setLevel(charLevel)
@@ -37,18 +39,19 @@ function App() {
 							further notes instead.
 						</p>
 						<div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:flex flex-row justify-between">
-							{levelsArray.map((level) => (
+							{levelsArray.map((level, index) => (
 								<button
 									type="button"
 									className="rounded-sm bg-slate-400 text-black transition-all duration-300 text-2xl px-4 py-3 hover:bg-slate-500 focus:bg-slate-500"
 									name={level.toString()}
 									onClick={handleClick}
+									key={index}
 								>
 									Level {level}
 								</button>
 							))}
 						</div>
-						<div>
+						<div ref={animationParent}>
 							{level == 2 ? <LevelTwo /> : ''}
 							{level == 4 ? <LevelFour /> : ''}
 							{level == 8 ? <LevelEight /> : ''}
