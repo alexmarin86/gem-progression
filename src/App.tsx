@@ -25,19 +25,29 @@ function App() {
 		<div className="App">
 			<main className="flex flex-col gap-8 bg-slate-800 text-white min-h-screen">
 				<h1 className="text-4xl text-center mt-14">Gem progression</h1>
-				<section className="w-3/4 mx-auto">
+				<section className="w-full md:w-3/4 mx-auto">
 					<div className="px-8 flex flex-col gap-8">
+						<span className="text-red-500 text-xl text-center">
+							Updated for 3.21
+						</span>
 						<p>
 							Gem progression based on character level and quest
 							completion. Select your character level to see
 							relevant gem quest rewards.
 						</p>
-						<p className="text-yellow-500 border-b-2 pb-4">
-							*Note that rewards for level 12 and 28 quests are
-							not included because they are only relevant for RF
-							inquisitor progression. They will be mentioned in
-							further notes instead.
-						</p>
+						<div>
+							<p className="text-yellow-500">
+								*Note that rewards for level 12 and 28 quests
+								are not included because they are only relevant
+								for RF inquisitor progression. They will be
+								mentioned in further notes instead.
+							</p>
+							<p className="text-yellow-500 border-b-2 pb-4">
+								**The templar section is not yet updated for
+								3.21. I will be updating it the moment Pohx
+								releases the new leveling guide.
+							</p>
+						</div>
 						<div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:flex flex-row justify-between">
 							{levelsArray.map((level, index) => (
 								<button

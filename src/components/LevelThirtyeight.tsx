@@ -14,14 +14,7 @@ function LevelThirtyeight() {
 						<span className="underline text-blue-400">
 							Increased Area of Effect Support
 						</span>{' '}
-						and save it for later.
-					</p>
-					<p>
-						Petarus and Vanja now sell{' '}
-						<span className="underline text-blue-400">
-							Hextouch Support
-						</span>
-						. You can now automate your curse application.
+						and replace Efficacy support with it for more clear.
 					</p>
 				</div>
 				<div className="border-2 p-6 md:w-1/2">

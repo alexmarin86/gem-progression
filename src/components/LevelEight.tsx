@@ -13,17 +13,21 @@ function LevelEight() {
 						<span className="font-semibold">As a marauder: </span>
 						We take{' '}
 						<span className="underline text-red-400">
-							Lifetap Support
+							Added Fire Damage Support
 						</span>{' '}
-						and save it for our 4 link setup once we gain access to
-						one.
+						and slot it in our Holy Flame Totem setup.
 					</p>
 					<p>
 						At this point we can purchase{' '}
 						<span className="underline text-blue-400">
 							Combustion Support
 						</span>{' '}
-						from Nessa and slot it in our primary 3 link.
+						and and slot it in our primary 3 link.{' '}
+						<span className="underline text-red-400">
+							Lifetap Support
+						</span>{' '}
+						also becomes available for purchase from Nessa. Feel
+						free to grab one as you need it.
 					</p>
 				</div>
 				<div className="border-2 p-6 md:w-1/2">

@@ -27,6 +27,10 @@ function LevelThirtyone() {
 							Elemental Focus Support
 						</span>
 						,{' '}
+						<span className="underline text-red-400">
+							Burning Damage Support
+						</span>
+						,{' '}
 						<span className="underline text-green-400">
 							Trap and Mine Damage Support
 						</span>
@@ -34,8 +38,20 @@ function LevelThirtyone() {
 						<span className="underline text-green-400">
 							Fire Trap
 						</span>
-						. Remember to bring Orbs of Transmutation and Alteration
-						along to be able to purchase the gems.
+						. Remember to bring Orbs of Transmutation, Alteration
+						and Chance along to be able to purchase the gems.
+					</p>
+					<p>
+						If you decide to swap to the{' '}
+						<span className="underline text-blue-400">
+							Armageddon Brand
+						</span>{' '}
+						setup, you can also purchase it from Siosa at this time.
+						Remember to go back to Nessa in act 1 and pick up{' '}
+						<span className="underline text-red-400">
+							Searing Bond
+						</span>{' '}
+						to replace Flame Wall.
 					</p>
 				</div>
 				<div className="border-2 p-6 md:w-1/2">

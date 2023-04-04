@@ -7,19 +7,48 @@ function LevelTwo() {
 				rewards, depending on class are:
 			</p>
 			<div className="flex gap-4 flex-col md:flex-row">
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a marauder: </span>
-					It doesn't matter what we take here, just save it for the
-					ruby ring recipe we'll be using later.
-				</p>
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a templar: </span>
-					We take{' '}
-					<span className="underline text-blue-400">
-						Rolling Magma
-					</span>{' '}
-					as it is our leveling skill.
-				</p>
+				<div className="border-2 p-6 md:w-1/2">
+					<p>
+						<span className="font-semibold">As a marauder: </span>
+						It doesn't matter what we take here, just save it for
+						the ruby ring recipe we'll be using later.
+					</p>
+					<p className="mt-4">
+						<span className="font-semibold">Muling Info.</span> It
+						is highly recommended that you mule a witch for the
+						following gems:
+					</p>
+					<ul className="mt-1 ml-4 list-disc">
+						<li>
+							<span className="underline text-blue-400">
+								Rolling Magma
+							</span>{' '}
+							as it is our leveling skill.{' '}
+							<span className="text-yellow-500">
+								Remember to keep it at level 1 so you can use it
+								straight away when you switch to the marauder.
+							</span>
+						</li>
+						<li>
+							Make sure to save{' '}
+							<span className="underline text-blue-400">
+								Arcane Surge Support
+							</span>{' '}
+							as it will be part of our main setup. Keep it level
+							1 for the same reason as above.
+						</li>
+					</ul>
+				</div>
+				<div className="border-2 p-6 md:w-1/2">
+					<p>
+						<span className="font-semibold">As a templar: </span>
+						We take{' '}
+						<span className="underline text-blue-400">
+							Rolling Magma
+						</span>{' '}
+						as it is our leveling skill.
+					</p>
+				</div>
 			</div>
 		</div>
 	)

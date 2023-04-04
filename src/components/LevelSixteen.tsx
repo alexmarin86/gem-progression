@@ -7,14 +7,27 @@ function LevelSixteen() {
 				rewards, depending on class are:
 			</p>
 			<div className="flex gap-4 flex-col md:flex-row">
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a marauder: </span>
-					We take{' '}
-					<span className="underline text-red-400">
-						Herald of Ash
-					</span>
-					.
-				</p>
+				<div className="border-2 p-6 md:w-1/2">
+					<p className="mb-4">
+						<span className="font-semibold">As a marauder: </span>
+						We take{' '}
+						<span className="underline text-red-400">
+							Herald of Ash
+						</span>
+						.
+					</p>
+					<p>
+						We can also purchase{' '}
+						<span className="underline text-blue-400">
+							Righteous Fire
+						</span>{' '}
+						and optionally{' '}
+						<span className="underline text-green-400">
+							Blood Rage
+						</span>{' '}
+						from Yeena.
+					</p>
+				</div>
 
 				<p className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a templar: </span>
