@@ -1,4 +1,8 @@
 import Gem from '../Gem'
+import Determination from '../../assets/gems/Determination_icon.png'
+import Flammability from '../../assets/gems/Flammability_icon.png'
+import PurityOfElements from '../../assets/gems/Purity_of_Elements_icon.png'
+import ArmageddonBrand from '../../assets/gems/Armageddon_Brand_icon.png'
 
 function LevelTwentyfour() {
 	return (
@@ -15,7 +19,7 @@ function LevelTwentyfour() {
 						We take{' '}
 						<Gem
 							content="Determination"
-							src="Determination_icon.png"
+							src={Determination}
 							className="text-red-400 underline"
 						/>
 						.
@@ -24,13 +28,13 @@ function LevelTwentyfour() {
 						Clarissa now sells{' '}
 						<Gem
 							content="Flammability"
-							src="Flammability_icon.png"
+							src={Flammability}
 							className="text-blue-400 underline"
 						/>{' '}
 						and{' '}
 						<Gem
 							content="Purity of Elements"
-							src="Purity_of_Elements_icon.png"
+							src={PurityOfElements}
 							className="text-blue-400 underline"
 						/>
 						; they are fundamental to your survival and damage
@@ -43,7 +47,7 @@ function LevelTwentyfour() {
 						We take{' '}
 						<Gem
 							content="Flammability"
-							src="Flammability_icon.png"
+							src={Flammability}
 							className="text-blue-400 underline"
 						/>
 						.
@@ -52,7 +56,7 @@ function LevelTwentyfour() {
 						You can now purchase{' '}
 						<Gem
 							content="Purity of Elements"
-							src="Purity_of_Elements_icon.png"
+							src={PurityOfElements}
 							className="text-blue-400 underline"
 						/>{' '}
 						from Clarissa. This will boost your resistances so try
@@ -64,7 +68,7 @@ function LevelTwentyfour() {
 				**Note: If you are playing RF inquisitor, remember to take{' '}
 				<Gem
 					content="Armageddon Brand"
-					src="Armageddon_Brand_icon.png"
+					src={ArmageddonBrand}
 					className="text-blue-400 underline"
 				/>{' '}
 				as soon as you kill General Gravicius in the Ebony Barracks.

@@ -1,4 +1,8 @@
 import Gem from '../Gem'
+import AddedFire from '../../assets/gems/Added_Fire_Damage_Support_icon.png'
+import HolyFlameTotem from '../../assets/gems/Holy_Flame_Totem_icon.png'
+import Combustion from '../../assets/gems/Combustion_Support_icon.png'
+import Lifetap from '../../assets/gems/Lifetap_Support_icon.png'
 
 function LevelEight() {
 	return (
@@ -16,13 +20,13 @@ function LevelEight() {
 						We take{' '}
 						<Gem
 							content="Added Fire Damage Support"
-							src="Added_Fire_Damage_Support_icon.png"
+							src={AddedFire}
 							className="text-red-400 underline"
 						/>{' '}
 						and slot it in our{' '}
 						<Gem
 							content="Holy Flame Totem"
-							src="Holy_Flame_Totem_icon.png"
+							src={HolyFlameTotem}
 							className="text-red-400 underline"
 						/>{' '}
 						setup.
@@ -31,13 +35,13 @@ function LevelEight() {
 						At this point we can purchase{' '}
 						<Gem
 							content="Combustion Support"
-							src="Combustion_Support_icon.png"
+							src={Combustion}
 							className="text-blue-400 underline"
 						/>{' '}
 						and slot it in our primary 3 link.{' '}
 						<Gem
 							content="Lifetap Support"
-							src="Lifetap_Support_icon.png"
+							src={Lifetap}
 							className="text-red-400 underline"
 						/>{' '}
 						also becomes available for purchase from Nessa. Feel
@@ -50,7 +54,7 @@ function LevelEight() {
 						We take{' '}
 						<Gem
 							content="Combustion Support"
-							src="Combustion_Support_icon.png"
+							src={Combustion}
 							className="text-blue-400 underline"
 						/>{' '}
 						and slot it in our main 3 link.

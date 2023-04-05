@@ -1,4 +1,11 @@
 import Gem from '../Gem'
+import Frostblink from '../../assets/gems/Frostblink_icon.png'
+import MoltenShell from '../../assets/gems/Molten_Shell_icon.png'
+import HolyFlameTotem from '../../assets/gems/Holy_Flame_Totem_icon.png'
+import SummonPhantasm from '../../assets/gems/Summon_Phantasm_Support_icon.png'
+import FlameWall from '../../assets/gems/Flame_Wall_icon.png'
+import ArcaneSurge from '../../assets/gems/Arcane_Surge_Support_icon.png'
+import RollingMagma from '../../assets/gems/Rolling_Magma_icon.png'
 
 function LevelFour() {
 	return (
@@ -15,19 +22,19 @@ function LevelFour() {
 						Breaking some eggs: we take{' '}
 						<Gem
 							content="Frostblink"
-							src="Frostblink_icon.png"
+							src={Frostblink}
 							className="text-blue-400 underline"
 						/>{' '}
 						for mobility and{' '}
 						<Gem
 							content="Molten Shell"
-							src="Molten_Shell_icon.png"
+							src={MoltenShell}
 							className="text-red-400 underline"
 						/>{' '}
 						for later use. We can also purchase{' '}
 						<Gem
 							content="Holy Flame Totem"
-							src="Holy_Flame_Totem_icon.png"
+							src={HolyFlameTotem}
 							className="text-red-400 underline"
 						/>{' '}
 						if we haven't muled it.
@@ -41,7 +48,7 @@ function LevelFour() {
 						<li>
 							<Gem
 								content="Summon Phantasm Support"
-								src="Summon_Phantasm_Support_icon.png"
+								src={SummonPhantasm}
 								className="text-blue-400 underline"
 							/>{' '}
 							as a reward for completing "Mercy mission".
@@ -49,7 +56,7 @@ function LevelFour() {
 						<li>
 							<Gem
 								content="Flame Wall"
-								src="Flame_Wall_icon.png"
+								src={FlameWall}
 								className="text-blue-400 underline"
 							/>{' '}
 							as a reward for completing "Breaking some eggs".
@@ -59,7 +66,7 @@ function LevelFour() {
 							pick up{' '}
 							<Gem
 								content="Holy Flame Totem"
-								src="Holy_Flame_Totem_icon.png"
+								src={HolyFlameTotem}
 								className="text-red-400 underline"
 							/>{' '}
 							from Nessa. If not, you can pick it up later as a
@@ -74,19 +81,19 @@ function LevelFour() {
 							Mercy mission: we take{' '}
 							<Gem
 								content="Arcane Surge Support"
-								src="Arcane_Surge_Support_icon.png"
+								src={ArcaneSurge}
 								className="text-blue-400 underline"
 							/>{' '}
 							and link it with{' '}
 							<Gem
 								content="Rolling Magma"
-								src="Rolling_Magma_icon.png"
+								src={RollingMagma}
 								className="text-blue-400 underline"
 							/>{' '}
 							temporarily if we have a 3 link, or{' '}
 							<Gem
 								content="Flame Wall"
-								src="Flame_Wall_icon.png"
+								src={FlameWall}
 								className="text-blue-400 underline"
 							/>{' '}
 							if we don't.
@@ -95,13 +102,13 @@ function LevelFour() {
 							Breaking some eggs: we take either{' '}
 							<Gem
 								content="Flame Wall"
-								src="Flame_Wall_icon.png"
+								src={FlameWall}
 								className="text-blue-400 underline"
 							/>{' '}
 							or{' '}
 							<Gem
 								content="Frostblink"
-								src="Frostblink_icon.png"
+								src={Frostblink}
 								className="text-blue-400 underline"
 							/>{' '}
 							and purchase the other from Nessa.

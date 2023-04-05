@@ -1,4 +1,6 @@
 import Gem from '../Gem'
+import FasterAttacks from '../../assets/gems/Faster_Attacks_Support_icon.png'
+import ControlledDestruction from '../../assets/gems/Controlled_Destruction_Support_icon.png'
 
 function LevelEighteen() {
 	return (
@@ -14,7 +16,7 @@ function LevelEighteen() {
 					We take{' '}
 					<Gem
 						content="Faster Attacks Support"
-						src="Faster_Attacks_Support_icon.png"
+						src={FasterAttacks}
 						className="text-green-400 underline"
 					/>
 					.
@@ -25,7 +27,7 @@ function LevelEighteen() {
 					We take{' '}
 					<Gem
 						content="Controlled Destruction Support"
-						src="Controlled_Destruction_Support_icon.png"
+						src={ControlledDestruction}
 						className="text-blue-400 underline"
 					/>
 					.

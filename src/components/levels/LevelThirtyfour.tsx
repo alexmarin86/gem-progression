@@ -1,4 +1,5 @@
 import Gem from '../Gem'
+import StoneGolem from '../../assets/gems/Summon_Stone_Golem_icon.png'
 
 function LevelThirtyfour() {
 	return (
@@ -14,7 +15,7 @@ function LevelThirtyfour() {
 					We take{' '}
 					<Gem
 						content="Summon Stone Golem"
-						src="Summon_Stone_Golem_icon.png"
+						src={StoneGolem}
 						className="text-red-400 underline"
 					/>
 					.
@@ -25,7 +26,7 @@ function LevelThirtyfour() {
 					We take{' '}
 					<Gem
 						content="Summon Stone Golem"
-						src="Summon_Stone_Golem_icon.png"
+						src={StoneGolem}
 						className="text-red-400 underline"
 					/>
 					.

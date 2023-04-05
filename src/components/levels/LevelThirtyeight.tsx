@@ -1,4 +1,9 @@
 import Gem from '../Gem'
+import IncAoe from '../../assets/gems/Increased_Area_of_Effect_Support_icon.png'
+import Efficacy from '../../assets/gems/Efficacy_Support_icon.png'
+import IgniteProlif from '../../assets/gems/Ignite_Proliferation_Support_icon.png'
+import Immolate from '../../assets/gems/Immolate_Support_icon.png'
+import Hextouch from '../../assets/gems/Hextouch_Support_icon.png'
 
 function LevelThirtyeight() {
 	return (
@@ -15,13 +20,13 @@ function LevelThirtyeight() {
 						We take{' '}
 						<Gem
 							content="Increased Area of Effect Support"
-							src="Increased_Area_of_Effect_Support_icon.png"
+							src={IncAoe}
 							className="text-blue-400 underline"
 						/>{' '}
 						and replace{' '}
 						<Gem
 							content="Efficacy Support"
-							src="Efficacy_Support_icon.png"
+							src={Efficacy}
 							className="text-blue-400 underline"
 						/>{' '}
 						with it for more clear.
@@ -33,7 +38,7 @@ function LevelThirtyeight() {
 						We take{' '}
 						<Gem
 							content="Ignite Proliferation Support"
-							src="Ignite_Proliferation_Support_icon.png"
+							src={IgniteProlif}
 							className="text-blue-400 underline"
 						/>{' '}
 						and slot it in our Armageddon Brand link group.
@@ -41,14 +46,14 @@ function LevelThirtyeight() {
 					<p>
 						Feel free to buy{' '}
 						<Gem
-							src="Immolate_Support_icon.png"
+							src={Immolate}
 							content="Immolate Support"
 							className="text-blue-400 underline"
 						/>{' '}
 						and{' '}
 						<Gem
 							content="Hextouch Support"
-							src="Hextouch_Support_icon.png"
+							src={Hextouch}
 							className="text-blue-400 underline"
 						/>{' '}
 						from Petarus and Vanja.

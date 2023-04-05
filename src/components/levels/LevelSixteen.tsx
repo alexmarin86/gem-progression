@@ -1,4 +1,7 @@
 import Gem from '../Gem'
+import HeraldOfAsh from '../../assets/gems/Herald_of_Ash_icon.png'
+import RighteousFire from '../../assets/gems/Righteous_Fire_icon.png'
+import BloodRage from '../../assets/gems/Blood_Rage_icon.png'
 
 function LevelSixteen() {
 	return (
@@ -15,7 +18,7 @@ function LevelSixteen() {
 						We take{' '}
 						<Gem
 							content="Herald of Ash"
-							src="Herald_of_Ash_icon.png"
+							src={HeraldOfAsh}
 							className="text-red-400 underline"
 						/>
 						.
@@ -24,25 +27,24 @@ function LevelSixteen() {
 						We can also purchase{' '}
 						<Gem
 							content="Righteous Fire"
-							src="Righteous_Fire_icon.png"
+							src={RighteousFire}
 							className="text-blue-400 underline"
 						/>{' '}
 						and optionally{' '}
 						<Gem
 							content="Blood Rage"
-							src="Blood_Rage_icon.png"
+							src={BloodRage}
 							className="text-green-400 underline"
 						/>{' '}
 						from Yeena.
 					</p>
 				</div>
-
 				<p className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a templar: </span>
 					We take{' '}
 					<Gem
 						content="Herald of Ash"
-						src="Herald_of_Ash_icon.png"
+						src={HeraldOfAsh}
 						className="text-red-400 underline"
 					/>
 					.

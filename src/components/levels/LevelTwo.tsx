@@ -1,4 +1,6 @@
 import Gem from '../Gem'
+import RollingMagma from '../../assets/gems/Rolling_Magma_icon.png'
+import ArcaneSurge from '../../assets/gems/Arcane_Surge_Support_icon.png'
 
 function LevelTwo() {
 	return (
@@ -24,7 +26,7 @@ function LevelTwo() {
 						<li>
 							<Gem
 								content="Rolling Magma"
-								src="Rolling_Magma_icon.png"
+								src={RollingMagma}
 								className="text-blue-400 underline"
 							/>{' '}
 							as it is our leveling skill.{' '}
@@ -37,7 +39,7 @@ function LevelTwo() {
 							Make sure to save{' '}
 							<Gem
 								content="Arcane Surge Support"
-								src="Arcane_Surge_Support_icon.png"
+								src={ArcaneSurge}
 								className="text-blue-400 underline"
 							/>{' '}
 							as it will be part of our main setup. Keep it level
@@ -51,7 +53,7 @@ function LevelTwo() {
 						We take{' '}
 						<Gem
 							content="Rolling Magma"
-							src="Rolling_Magma_icon.png"
+							src={RollingMagma}
 							className="text-blue-400 underline"
 						/>{' '}
 						as it is our leveling skill.

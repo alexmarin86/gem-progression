@@ -1,4 +1,7 @@
 import Gem from '../Gem'
+import Vitality from '../../assets/gems/Vitality_icon.png'
+import LeapSlam from '../../assets/gems/Leap_Slam_icon.png'
+import FlameSurge from '../../assets/gems/Flame_Surge_icon.png'
 
 function LevelTen() {
 	return (
@@ -15,7 +18,7 @@ function LevelTen() {
 						We take{' '}
 						<Gem
 							content="Vitality"
-							src="Vitality_icon.png"
+							src={Vitality}
 							className="text-red-400 underline"
 						/>
 						.
@@ -24,7 +27,7 @@ function LevelTen() {
 						Nessa now sells{' '}
 						<Gem
 							content="Leap Slam"
-							src="Leap_Slam_icon.png"
+							src={LeapSlam}
 							className="text-red-400 underline"
 						/>
 						, grab it if you prefer running it for leveling.
@@ -36,7 +39,7 @@ function LevelTen() {
 						We take{' '}
 						<Gem
 							content="Vitality"
-							src="Vitality_icon.png"
+							src={Vitality}
 							className="text-red-400 underline"
 						/>
 						.
@@ -47,7 +50,7 @@ function LevelTen() {
 				**Note: If you are playing RF inquisitor, remember to take{' '}
 				<Gem
 					content="Flame Surge"
-					src="Flame_Surge_icon.png"
+					src={FlameSurge}
 					className="text-blue-400 underline"
 				/>{' '}
 				as soon as you enter Cavern of Wrath and activate the waypoint.
