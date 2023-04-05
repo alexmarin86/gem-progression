@@ -1,5 +1,5 @@
 function Gem(props: { src: string; content: string; className: string }) {
-	const route = 'src/assets/gems/'
+	const route = '../src/assets/gems/'
 	return (
 		<span className={props.className}>
 			<img
