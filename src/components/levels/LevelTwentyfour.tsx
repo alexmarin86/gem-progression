@@ -1,3 +1,5 @@
+import Gem from '../Gem'
+
 function LevelTwentyfour() {
 	return (
 		<div className="flex flex-col gap-6">
@@ -11,20 +13,26 @@ function LevelTwentyfour() {
 					<p className="mb-4">
 						<span className="font-semibold">As a marauder: </span>
 						We take{' '}
-						<span className="underline text-red-400">
-							Determination
-						</span>
+						<Gem
+							content="Determination"
+							src="Determination_icon.png"
+							className="text-red-400 underline"
+						/>
 						.
 					</p>
 					<p>
 						Clarissa now sells{' '}
-						<span className="underline text-blue-400">
-							Flammability
-						</span>{' '}
+						<Gem
+							content="Flammability"
+							src="Flammability_icon.png"
+							className="text-blue-400 underline"
+						/>{' '}
 						and{' '}
-						<span className="underline text-blue-400">
-							Purity of Elements
-						</span>
+						<Gem
+							content="Purity of Elements"
+							src="Purity_of_Elements_icon.png"
+							className="text-blue-400 underline"
+						/>
 						; they are fundamental to your survival and damage
 						therefore you should prioritize buying them asap.
 					</p>
@@ -33,16 +41,20 @@ function LevelTwentyfour() {
 					<p className="mb-4">
 						<span className="font-semibold">As a templar: </span>
 						We take{' '}
-						<span className="underline text-blue-400">
-							Flammability
-						</span>
+						<Gem
+							content="Flammability"
+							src="Flammability_icon.png"
+							className="text-blue-400 underline"
+						/>
 						.
 					</p>
 					<p>
 						You can now purchase{' '}
-						<span className="underline text-blue-400">
-							Purity of Elements
-						</span>{' '}
+						<Gem
+							content="Purity of Elements"
+							src="Purity_of_Elements_icon.png"
+							className="text-blue-400 underline"
+						/>{' '}
 						from Clarissa. This will boost your resistances so try
 						to grab it asap.
 					</p>
@@ -50,9 +62,11 @@ function LevelTwentyfour() {
 			</div>
 			<p className="text-yellow-500">
 				**Note: If you are playing RF inquisitor, remember to take{' '}
-				<span className="underline text-blue-400">
-					Armageddon Brand
-				</span>{' '}
+				<Gem
+					content="Armageddon Brand"
+					src="Armageddon_Brand_icon.png"
+					className="text-blue-400 underline"
+				/>{' '}
 				as soon as you kill General Gravicius in the Ebony Barracks.
 			</p>
 		</div>

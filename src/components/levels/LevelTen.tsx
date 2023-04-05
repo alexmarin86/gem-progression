@@ -1,3 +1,5 @@
+import Gem from '../Gem'
+
 function LevelTen() {
 	return (
 		<div className="flex flex-col gap-6">
@@ -11,14 +13,20 @@ function LevelTen() {
 					<p className="mb-4">
 						<span className="font-semibold">As a marauder: </span>
 						We take{' '}
-						<span className="underline text-red-400">Vitality</span>
+						<Gem
+							content="Vitality"
+							src="Vitality_icon.png"
+							className="text-red-400 underline"
+						/>
 						.
 					</p>
 					<p>
 						Nessa now sells{' '}
-						<span className="underline text-red-400">
-							Leap Slam
-						</span>
+						<Gem
+							content="Leap Slam"
+							src="Leap_Slam_icon.png"
+							className="text-red-400 underline"
+						/>
 						, grab it if you prefer running it for leveling.
 					</p>
 				</div>
@@ -26,15 +34,23 @@ function LevelTen() {
 					<p>
 						<span className="font-semibold">As a templar: </span>
 						We take{' '}
-						<span className="underline text-red-400">Vitality</span>
+						<Gem
+							content="Vitality"
+							src="Vitality_icon.png"
+							className="text-red-400 underline"
+						/>
 						.
 					</p>
 				</div>
 			</div>
 			<p className="text-yellow-500">
 				**Note: If you are playing RF inquisitor, remember to take{' '}
-				<span className="underline text-blue-400">Flame Surge</span> as
-				soon as you enter Cavern of Wrath and activate the waypoint.
+				<Gem
+					content="Flame Surge"
+					src="Flame_Surge_icon.png"
+					className="text-blue-400 underline"
+				/>{' '}
+				as soon as you enter Cavern of Wrath and activate the waypoint.
 			</p>
 		</div>
 	)

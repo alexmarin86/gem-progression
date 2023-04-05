@@ -1,3 +1,5 @@
+import Gem from '../Gem'
+
 function LevelEighteen() {
 	return (
 		<div className="flex flex-col gap-6">
@@ -10,18 +12,22 @@ function LevelEighteen() {
 				<p className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a marauder: </span>
 					We take{' '}
-					<span className="underline text-green-400">
-						Faster Attacks Support
-					</span>
+					<Gem
+						content="Faster Attacks Support"
+						src="Faster_Attacks_Support_icon.png"
+						className="text-green-400 underline"
+					/>
 					.
 				</p>
 
 				<p className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a templar: </span>
 					We take{' '}
-					<span className="underline text-blue-400">
-						Controlled Destruction Support
-					</span>
+					<Gem
+						content="Controlled Destruction Support"
+						src="Controlled_Destruction_Support_icon.png"
+						className="text-blue-400 underline"
+					/>
 					.
 				</p>
 			</div>

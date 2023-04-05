@@ -1,3 +1,5 @@
+import Gem from '../Gem'
+
 function LevelThirtyeight() {
 	return (
 		<div className="flex flex-col gap-6">
@@ -11,30 +13,44 @@ function LevelThirtyeight() {
 					<p className="mb-4">
 						<span className="font-semibold">As a marauder: </span>
 						We take{' '}
-						<span className="underline text-blue-400">
-							Increased Area of Effect Support
-						</span>{' '}
-						and replace Efficacy support with it for more clear.
+						<Gem
+							content="Increased Area of Effect Support"
+							src="Increased_Area_of_Effect_Support_icon.png"
+							className="text-blue-400 underline"
+						/>{' '}
+						and replace{' '}
+						<Gem
+							content="Efficacy Support"
+							src="Efficacy_Support_icon.png"
+							className="text-blue-400 underline"
+						/>{' '}
+						with it for more clear.
 					</p>
 				</div>
 				<div className="border-2 p-6 md:w-1/2">
 					<p className="mb-4">
 						<span className="font-semibold">As a templar: </span>
 						We take{' '}
-						<span className="underline text-blue-400">
-							Ignite Proliferation Support
-						</span>{' '}
+						<Gem
+							content="Ignite Proliferation Support"
+							src="Ignite_Proliferation_Support_icon.png"
+							className="text-blue-400 underline"
+						/>{' '}
 						and slot it in our Armageddon Brand link group.
 					</p>
 					<p>
 						Feel free to buy{' '}
-						<span className="underline text-blue-400">
-							Immolate Support
-						</span>{' '}
+						<Gem
+							src="Immolate_Support_icon.png"
+							content="Immolate Support"
+							className="text-blue-400 underline"
+						/>{' '}
 						and{' '}
-						<span className="underline text-blue-400">
-							Hextouch Support
-						</span>{' '}
+						<Gem
+							content="Hextouch Support"
+							src="Hextouch_Support_icon.png"
+							className="text-blue-400 underline"
+						/>{' '}
 						from Petarus and Vanja.
 					</p>
 				</div>

@@ -1,3 +1,5 @@
+import Gem from '../Gem'
+
 function LevelSixteen() {
 	return (
 		<div className="flex flex-col gap-6">
@@ -11,20 +13,26 @@ function LevelSixteen() {
 					<p className="mb-4">
 						<span className="font-semibold">As a marauder: </span>
 						We take{' '}
-						<span className="underline text-red-400">
-							Herald of Ash
-						</span>
+						<Gem
+							content="Herald of Ash"
+							src="Herald_of_Ash_icon.png"
+							className="text-red-400 underline"
+						/>
 						.
 					</p>
 					<p>
 						We can also purchase{' '}
-						<span className="underline text-blue-400">
-							Righteous Fire
-						</span>{' '}
+						<Gem
+							content="Righteous Fire"
+							src="Righteous_Fire_icon.png"
+							className="text-blue-400 underline"
+						/>{' '}
 						and optionally{' '}
-						<span className="underline text-green-400">
-							Blood Rage
-						</span>{' '}
+						<Gem
+							content="Blood Rage"
+							src="Blood_Rage_icon.png"
+							className="text-green-400 underline"
+						/>{' '}
 						from Yeena.
 					</p>
 				</div>
@@ -32,9 +40,11 @@ function LevelSixteen() {
 				<p className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a templar: </span>
 					We take{' '}
-					<span className="underline text-red-400">
-						Herald of Ash
-					</span>
+					<Gem
+						content="Herald of Ash"
+						src="Herald_of_Ash_icon.png"
+						className="text-red-400 underline"
+					/>
 					.
 				</p>
 			</div>

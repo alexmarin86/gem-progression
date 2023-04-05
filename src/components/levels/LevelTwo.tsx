@@ -1,3 +1,5 @@
+import Gem from '../Gem'
+
 function LevelTwo() {
 	return (
 		<div className="flex flex-col gap-6">
@@ -20,9 +22,11 @@ function LevelTwo() {
 					</p>
 					<ul className="mt-1 ml-4 list-disc">
 						<li>
-							<span className="underline text-blue-400">
-								Rolling Magma
-							</span>{' '}
+							<Gem
+								content="Rolling Magma"
+								src="Rolling_Magma_icon.png"
+								className="text-blue-400 underline"
+							/>{' '}
 							as it is our leveling skill.{' '}
 							<span className="text-yellow-500">
 								Remember to keep it at level 1 so you can use it
@@ -31,9 +35,11 @@ function LevelTwo() {
 						</li>
 						<li>
 							Make sure to save{' '}
-							<span className="underline text-blue-400">
-								Arcane Surge Support
-							</span>{' '}
+							<Gem
+								content="Arcane Surge Support"
+								src="Arcane_Surge_Support_icon.png"
+								className="text-blue-400 underline"
+							/>{' '}
 							as it will be part of our main setup. Keep it level
 							1 for the same reason as above.
 						</li>
@@ -43,9 +49,11 @@ function LevelTwo() {
 					<p>
 						<span className="font-semibold">As a templar: </span>
 						We take{' '}
-						<span className="underline text-blue-400">
-							Rolling Magma
-						</span>{' '}
+						<Gem
+							content="Rolling Magma"
+							src="Rolling_Magma_icon.png"
+							className="text-blue-400 underline"
+						/>{' '}
 						as it is our leveling skill.
 					</p>
 				</div>

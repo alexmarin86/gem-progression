@@ -1,3 +1,5 @@
+import Gem from '../Gem'
+
 function LevelThirtyfour() {
 	return (
 		<div className="flex flex-col gap-6">
@@ -10,18 +12,22 @@ function LevelThirtyfour() {
 				<p className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a marauder: </span>
 					We take{' '}
-					<span className="underline text-red-400">
-						Summon Stone Golem
-					</span>
+					<Gem
+						content="Summon Stone Golem"
+						src="Summon_Stone_Golem_icon.png"
+						className="text-red-400 underline"
+					/>
 					.
 				</p>
 
 				<p className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a templar: </span>
 					We take{' '}
-					<span className="underline text-red-400">
-						Summon Stone Golem
-					</span>
+					<Gem
+						content="Summon Stone Golem"
+						src="Summon_Stone_Golem_icon.png"
+						className="text-red-400 underline"
+					/>
 					.
 				</p>
 			</div>

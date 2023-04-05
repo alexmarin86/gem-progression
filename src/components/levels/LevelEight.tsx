@@ -1,3 +1,5 @@
+import Gem from '../Gem'
+
 function LevelEight() {
 	return (
 		<div className="flex flex-col gap-6">
@@ -12,20 +14,32 @@ function LevelEight() {
 					<p className="mb-4">
 						<span className="font-semibold">As a marauder: </span>
 						We take{' '}
-						<span className="underline text-red-400">
-							Added Fire Damage Support
-						</span>{' '}
-						and slot it in our Holy Flame Totem setup.
+						<Gem
+							content="Added Fire Damage Support"
+							src="Added_Fire_Damage_Support_icon.png"
+							className="text-red-400 underline"
+						/>{' '}
+						and slot it in our{' '}
+						<Gem
+							content="Holy Flame Totem"
+							src="Holy_Flame_Totem_icon.png"
+							className="text-red-400 underline"
+						/>{' '}
+						setup.
 					</p>
 					<p>
 						At this point we can purchase{' '}
-						<span className="underline text-blue-400">
-							Combustion Support
-						</span>{' '}
-						and and slot it in our primary 3 link.{' '}
-						<span className="underline text-red-400">
-							Lifetap Support
-						</span>{' '}
+						<Gem
+							content="Combustion Support"
+							src="Combustion_Support_icon.png"
+							className="text-blue-400 underline"
+						/>{' '}
+						and slot it in our primary 3 link.{' '}
+						<Gem
+							content="Lifetap Support"
+							src="Lifetap_Support_icon.png"
+							className="text-red-400 underline"
+						/>{' '}
 						also becomes available for purchase from Nessa. Feel
 						free to grab one as you need it.
 					</p>
@@ -34,9 +48,11 @@ function LevelEight() {
 					<p>
 						<span className="font-semibold">As a templar: </span>
 						We take{' '}
-						<span className="underline text-blue-400">
-							Combustion Support
-						</span>{' '}
+						<Gem
+							content="Combustion Support"
+							src="Combustion_Support_icon.png"
+							className="text-blue-400 underline"
+						/>{' '}
 						and slot it in our main 3 link.
 					</p>
 				</div>

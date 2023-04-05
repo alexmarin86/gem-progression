@@ -1,15 +1,15 @@
 import React, { FC, useState } from 'react'
 import './App.css'
-import LevelTwo from './components/LevelTwo'
-import LevelFour from './components/LevelFour'
-import LevelEight from './components/LevelEight'
-import LevelTen from './components/LevelTen'
-import LevelSixteen from './components/LevelSixteen'
-import LevelEighteen from './components/LevelEighteen'
-import LevelTwentyfour from './components/LevelTwentyfour'
-import LevelThirtyone from './components/LevelThirtyone'
-import LevelThirtyfour from './components/LevelThirtyfour'
-import LevelThirtyeight from './components/LevelThirtyeight'
+import LevelTwo from './components/levels/LevelTwo'
+import LevelFour from './components/levels/LevelFour'
+import LevelEight from './components/levels/LevelEight'
+import LevelTen from './components/levels/LevelTen'
+import LevelSixteen from './components/levels/LevelSixteen'
+import LevelEighteen from './components/levels/LevelEighteen'
+import LevelTwentyfour from './components/levels/LevelTwentyfour'
+import LevelThirtyone from './components/levels/LevelThirtyone'
+import LevelThirtyfour from './components/levels/LevelThirtyfour'
+import LevelThirtyeight from './components/levels/LevelThirtyeight'
 import { useAutoAnimate } from '@formkit/auto-animate/react'
 
 function App() {
@@ -30,11 +30,20 @@ function App() {
 						<span className="text-red-500 text-xl text-center">
 							Updated for 3.21
 						</span>
-						<p>
-							Gem progression based on character level and quest
-							completion. Select your character level to see
-							relevant gem quest rewards.
-						</p>
+						<div>
+							<p>
+								Gem progression based on character level and
+								quest completion. Select your character level to
+								see relevant gem quest rewards.
+							</p>
+							<p>
+								Relevant{' '}
+								<span className="font-semibold">
+									muling information
+								</span>{' '}
+								is included for early levels.
+							</p>
+						</div>
 						<div>
 							<p className="text-yellow-500">
 								*Note that rewards for level 12 and 28 quests
@@ -62,16 +71,16 @@ function App() {
 							))}
 						</div>
 						<div ref={animationParent}>
-							{level == 2 ? <LevelTwo /> : ''}
-							{level == 4 ? <LevelFour /> : ''}
-							{level == 8 ? <LevelEight /> : ''}
-							{level == 10 ? <LevelTen /> : ''}
-							{level == 16 ? <LevelSixteen /> : ''}
-							{level == 18 ? <LevelEighteen /> : ''}
-							{level == 24 ? <LevelTwentyfour /> : ''}
-							{level == 31 ? <LevelThirtyone /> : ''}
-							{level == 34 ? <LevelThirtyfour /> : ''}
-							{level == 38 ? <LevelThirtyeight /> : ''}
+							{level == 2 && <LevelTwo />}
+							{level == 4 && <LevelFour />}
+							{level == 8 && <LevelEight />}
+							{level == 10 && <LevelTen />}
+							{level == 16 && <LevelSixteen />}
+							{level == 18 && <LevelEighteen />}
+							{level == 24 && <LevelTwentyfour />}
+							{level == 31 && <LevelThirtyone />}
+							{level == 34 && <LevelThirtyfour />}
+							{level == 38 && <LevelThirtyeight />}
 						</div>
 					</div>
 				</section>
