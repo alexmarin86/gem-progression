@@ -39,16 +39,27 @@ function LevelSixteen() {
 						from Yeena.
 					</p>
 				</div>
-				<p className="border-2 p-6 md:w-1/2">
-					<span className="font-semibold">As a templar: </span>
-					We take{' '}
-					<Gem
-						content="Herald of Ash"
-						src={HeraldOfAsh}
-						className="text-red-400 underline"
-					/>
-					.
-				</p>
+				<div className="border-2 p-6 md:w-1/2">
+					<p className="mb-4">
+						<span className="font-semibold">As a templar: </span>
+						We take{' '}
+						<Gem
+							content="Herald of Ash"
+							src={HeraldOfAsh}
+							className="text-red-400 underline"
+						/>
+						.
+					</p>
+					<p>
+						We can also purchase{' '}
+						<Gem
+							content="Righteous Fire"
+							src={RighteousFire}
+							className="text-blue-400 underline"
+						/>{' '}
+						from Yeena.
+					</p>
+				</div>
 			</div>
 		</div>
 	)

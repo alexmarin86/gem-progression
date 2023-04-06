@@ -30,7 +30,7 @@ function LevelEighteen() {
 						src={ControlledDestruction}
 						className="text-blue-400 underline"
 					/>
-					.
+					. Purchase the remaining copies you need from Yeena.
 				</p>
 			</div>
 		</div>

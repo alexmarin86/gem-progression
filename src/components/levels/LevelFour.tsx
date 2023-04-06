@@ -45,7 +45,7 @@ function LevelFour() {
 						following gems:
 					</p>
 					<ul className="mt-1 ml-4 list-disc">
-						<li>
+						<li className="mb-2">
 							<Gem
 								content="Summon Phantasm Support"
 								src={SummonPhantasm}
@@ -53,7 +53,7 @@ function LevelFour() {
 							/>{' '}
 							as a reward for completing "Mercy mission".
 						</li>
-						<li>
+						<li className="mb-2">
 							<Gem
 								content="Flame Wall"
 								src={FlameWall}
@@ -76,8 +76,8 @@ function LevelFour() {
 				</div>
 				<div className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a templar: </span>
-					<ul>
-						<li className="mb-4">
+					<ul className="mt-1 ml-4 list-disc">
+						<li className="mb-2">
 							Mercy mission: we take{' '}
 							<Gem
 								content="Arcane Surge Support"
@@ -98,7 +98,7 @@ function LevelFour() {
 							/>{' '}
 							if we don't.
 						</li>
-						<li>
+						<li className="mb-2">
 							Breaking some eggs: we take either{' '}
 							<Gem
 								content="Flame Wall"
@@ -112,6 +112,21 @@ function LevelFour() {
 								className="text-blue-400 underline"
 							/>{' '}
 							and purchase the other from Nessa.
+						</li>
+						<li>
+							If you decided to run the{' '}
+							<Gem
+								content="Holy Flame Totem"
+								src={HolyFlameTotem}
+								className="text-red-400 underline"
+							/>{' '}
+							setup, you can purchase it from Nessa alongside{' '}
+							<Gem
+								content="Summon Phantasm Support"
+								src={SummonPhantasm}
+								className="text-blue-400 underline"
+							/>
+							.
 						</li>
 					</ul>
 				</div>

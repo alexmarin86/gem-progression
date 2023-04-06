@@ -34,7 +34,7 @@ function LevelTen() {
 					</p>
 				</div>
 				<div className="border-2 p-6 md:w-1/2">
-					<p>
+					<p className="mb-4">
 						<span className="font-semibold">As a templar: </span>
 						We take{' '}
 						<Gem
@@ -43,6 +43,15 @@ function LevelTen() {
 							className="text-red-400 underline"
 						/>
 						.
+					</p>
+					<p>
+						Nessa now sells{' '}
+						<Gem
+							content="Leap Slam"
+							src={LeapSlam}
+							className="text-red-400 underline"
+						/>
+						, grab it if you prefer running it for leveling.
 					</p>
 				</div>
 			</div>

@@ -3,6 +3,10 @@ import AddedFire from '../../assets/gems/Added_Fire_Damage_Support_icon.png'
 import HolyFlameTotem from '../../assets/gems/Holy_Flame_Totem_icon.png'
 import Combustion from '../../assets/gems/Combustion_Support_icon.png'
 import Lifetap from '../../assets/gems/Lifetap_Support_icon.png'
+import RollingMagma from '../../assets/gems/Rolling_Magma_icon.png'
+import AddedLightning from '../../assets/gems/Added_Lightning_Damage_Support_icon.png'
+import Efficacy from '../../assets/gems/Efficacy_Support_icon.png'
+import FlameSurge from '../../assets/gems/Flame_Surge_icon.png'
 
 function LevelEight() {
 	return (
@@ -50,14 +54,54 @@ function LevelEight() {
 				</div>
 				<div className="border-2 p-6 md:w-1/2">
 					<p>
-						<span className="font-semibold">As a templar: </span>
-						We take{' '}
+						<span className="font-semibold">As a templar </span>
+						you have two options:
+						<ul className="mt-1 ml-4 list-disc">
+							<li className="mb-2">
+								<Gem
+									content="Combustion Support"
+									src={Combustion}
+									className="text-blue-400 underline"
+								/>{' '}
+								if you're running the{' '}
+								<Gem
+									content="Rolling Magma"
+									src={RollingMagma}
+									className="text-blue-400 underline"
+								/>{' '}
+								setup,
+							</li>
+							<li>
+								or{' '}
+								<Gem
+									content="Added Lightning Damage Support"
+									src={AddedLightning}
+									className="text-blue-400 underline"
+								/>{' '}
+								if you're running the{' '}
+								<Gem
+									content="Holy Flame Totem"
+									src={HolyFlameTotem}
+									className="text-red-400 underline"
+								/>{' '}
+								setup.
+							</li>
+						</ul>
+					</p>
+					<p>
+						Remember to purchase{' '}
 						<Gem
-							content="Combustion Support"
-							src={Combustion}
+							content="Efficacy Support"
+							src={Efficacy}
 							className="text-blue-400 underline"
 						/>{' '}
-						and slot it in our main 3 link.
+						and save it for the{' '}
+						<Gem
+							content="Flame Surge"
+							src={FlameSurge}
+							className="text-blue-400 underline"
+						/>{' '}
+						setup.
 					</p>
 				</div>
 			</div>
