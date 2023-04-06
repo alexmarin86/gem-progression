@@ -51,11 +51,6 @@ function App() {
 								for RF inquisitor progression. They will be
 								mentioned in further notes instead.
 							</p>
-							<p className="text-yellow-500 border-b-2 pb-4">
-								**The templar section is not yet updated for
-								3.21. I will be updating it the moment Pohx
-								releases the new leveling guide.
-							</p>
 						</div>
 						<div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:flex flex-row justify-between">
 							{levelsArray.map((level, index) => (
