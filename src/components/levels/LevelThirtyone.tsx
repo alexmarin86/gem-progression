@@ -127,7 +127,7 @@ function LevelThirtyone() {
 							src={TrapAndMineDamage}
 							className="text-green-400 underline"
 						/>{' '}
-						from Yeena back in act 2 and start leveling it in your
+						from Yeena back in act 2 and start leveling them in your
 						weapon swap as well.
 					</p>
 				</div>
