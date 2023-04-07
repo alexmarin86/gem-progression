@@ -3,6 +3,7 @@ import Determination from '../../assets/gems/Determination_icon.png'
 import Flammability from '../../assets/gems/Flammability_icon.png'
 import PurityOfElements from '../../assets/gems/Purity_of_Elements_icon.png'
 import ArmageddonBrand from '../../assets/gems/Armageddon_Brand_icon.png'
+import Malevolence from '../../assets/gems/Malevolence_icon.png'
 
 function LevelTwentyfour() {
 	return (
@@ -60,7 +61,19 @@ function LevelTwentyfour() {
 							className="text-blue-400 underline"
 						/>{' '}
 						from Clarissa. This will boost your resistances so try
-						to grab it asap.
+						to grab it asap. You can also buy{' '}
+						<Gem
+							content="Determination"
+							src={Determination}
+							className="text-red-400 underline"
+						/>{' '}
+						and{' '}
+						<Gem
+							content="Malevolence"
+							src={Malevolence}
+							className="text-blue-400 underline"
+						/>{' '}
+						and level them in your weapon swap.
 					</p>
 				</div>
 			</div>

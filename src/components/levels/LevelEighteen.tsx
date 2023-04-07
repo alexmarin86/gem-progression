@@ -13,13 +13,7 @@ function LevelEighteen() {
 			<div className="flex gap-4 flex-col md:flex-row">
 				<p className="border-2 p-6 md:w-1/2">
 					<span className="font-semibold">As a marauder: </span>
-					We take{' '}
-					<Gem
-						content="Faster Attacks Support"
-						src={FasterAttacks}
-						className="text-green-400 underline"
-					/>
-					.
+					We don't have a choice that fits our character here.
 				</p>
 
 				<p className="border-2 p-6 md:w-1/2">

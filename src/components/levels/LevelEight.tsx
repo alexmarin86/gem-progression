@@ -6,6 +6,8 @@ import Lifetap from '../../assets/gems/Lifetap_Support_icon.png'
 import RollingMagma from '../../assets/gems/Rolling_Magma_icon.png'
 import Efficacy from '../../assets/gems/Efficacy_Support_icon.png'
 import FlameSurge from '../../assets/gems/Flame_Surge_icon.png'
+import FasterAttacks from '../../assets/gems/Faster_Attacks_Support_icon.png'
+import LeapSlam from '../../assets/gems/Leap_Slam_icon.png'
 
 function LevelEight() {
 	return (
@@ -47,8 +49,14 @@ function LevelEight() {
 							src={Lifetap}
 							className="text-red-400 underline"
 						/>{' '}
-						also becomes available for purchase from Nessa. Feel
-						free to grab one as you need it.
+						and{' '}
+						<Gem
+							content="Faster Attacks Support"
+							src={FasterAttacks}
+							className="text-green-400 underline"
+						/>{' '}
+						also become available for purchase from Nessa. Feel free
+						to grab one as you need it.
 					</p>
 				</div>
 				<div className="border-2 p-6 md:w-1/2">
@@ -99,6 +107,18 @@ function LevelEight() {
 							content="Flame Surge"
 							src={FlameSurge}
 							className="text-blue-400 underline"
+						/>{' '}
+						setup, and{' '}
+						<Gem
+							content="Faster Attacks Support"
+							src={FasterAttacks}
+							className="text-green-400 underline"
+						/>{' '}
+						for the{' '}
+						<Gem
+							content="Leap Slam"
+							src={LeapSlam}
+							className="text-red-400 underline"
 						/>{' '}
 						setup.
 					</p>
