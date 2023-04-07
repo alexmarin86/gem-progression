@@ -114,18 +114,18 @@ function LevelThirtyone() {
 							src={FireTrap}
 							className="text-green-400 underline"
 						/>{' '}
+						and level it for the RF transition after cruel lab. You
+						can also grab{' '}
+						<Gem
+							content="Elemental Focus Support"
+							src={ElementalFocus}
+							className="text-blue-400 underline"
+						/>{' '}
 						and{' '}
 						<Gem
 							content="Trap and Mine Damage Support"
 							src={TrapAndMineDamage}
 							className="text-green-400 underline"
-						/>{' '}
-						and level them for the RF transition after cruel lab.
-						You can also grab{' '}
-						<Gem
-							content="Elemental Focus Support"
-							src={ElementalFocus}
-							className="text-blue-400 underline"
 						/>{' '}
 						from Yeena back in act 2 and start leveling it in your
 						weapon swap as well.
