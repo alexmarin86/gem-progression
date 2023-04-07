@@ -4,7 +4,6 @@ import HolyFlameTotem from '../../assets/gems/Holy_Flame_Totem_icon.png'
 import Combustion from '../../assets/gems/Combustion_Support_icon.png'
 import Lifetap from '../../assets/gems/Lifetap_Support_icon.png'
 import RollingMagma from '../../assets/gems/Rolling_Magma_icon.png'
-import AddedLightning from '../../assets/gems/Added_Lightning_Damage_Support_icon.png'
 import Efficacy from '../../assets/gems/Efficacy_Support_icon.png'
 import FlameSurge from '../../assets/gems/Flame_Surge_icon.png'
 
@@ -74,9 +73,9 @@ function LevelEight() {
 							<li>
 								or{' '}
 								<Gem
-									content="Added Lightning Damage Support"
-									src={AddedLightning}
-									className="text-blue-400 underline"
+									content="Added Fire Damage Support"
+									src={AddedFire}
+									className="text-red-400 underline"
 								/>{' '}
 								if you're running the{' '}
 								<Gem
