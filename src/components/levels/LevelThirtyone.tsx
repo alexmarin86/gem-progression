@@ -13,11 +13,20 @@ function LevelThirtyone() {
 	return (
 		<div className="flex flex-col gap-6">
 			<h2 className="text-2xl">Level 31 quest rewards</h2>
-			<p>
-				At level 31 we complete the quest "A fixture of fate", located
-				in the Library, west of the Imperial Gardens. The rewards,
-				depending on class are:
-			</p>
+			<div>
+				<p className="mb-2">
+					At this point you may want to start leveling some gems in
+					your weapon swap. To access it, press "x" with your
+					inventory open, and equip weapons in each slot. Slot the
+					gems you want to level in and press "x" again to go back to
+					your main weapons.
+				</p>
+				<p>
+					At level 31 we complete the quest "A fixture of fate",
+					located in the Library, west of the Imperial Gardens. The
+					rewards, depending on class are:
+				</p>
+			</div>
 			<div className="flex gap-4 flex-col md:flex-row">
 				<div className="border-2 p-6 md:w-1/2">
 					<p className="mb-4">
@@ -105,7 +114,21 @@ function LevelThirtyone() {
 							src={FireTrap}
 							className="text-green-400 underline"
 						/>{' '}
-						and level it for the RF transition after cruel lab.
+						and{' '}
+						<Gem
+							content="Trap and Mine Damage Support"
+							src={TrapAndMineDamage}
+							className="text-green-400 underline"
+						/>{' '}
+						and level them for the RF transition after cruel lab.
+						You can also grab{' '}
+						<Gem
+							content="Elemental Focus Support"
+							src={ElementalFocus}
+							className="text-blue-400 underline"
+						/>{' '}
+						from Yeena back in act 2 and start leveling it in your
+						weapon swap as well.
 					</p>
 				</div>
 			</div>

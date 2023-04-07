@@ -39,7 +39,14 @@ function LevelThirtyeight() {
 							content="Immolate Support"
 							className="text-blue-400 underline"
 						/>{' '}
-						and slot it in our Armageddon Brand link group.
+						and slot it in our Armageddon Brand link group. You may
+						also purchase{' '}
+						<Gem
+							content="Increased Area of Effect Support"
+							src={IncAoe}
+							className="text-blue-400 underline"
+						/>{' '}
+						and level it in your weapon swap.
 					</p>
 				</div>
 			</div>
