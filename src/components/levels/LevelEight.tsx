@@ -14,9 +14,8 @@ function LevelEight() {
 		<div className="flex flex-col gap-6">
 			<h2 className="text-2xl">Level 8 quest rewards</h2>
 			<p>
-				At level 8 we enter the lower prison and we complete the first
-				part of the quest "The caged brute". The rewards, depending on
-				class are:
+				At level 8 we enter the lower prison and we complete the first part of
+				the quest "The caged brute". The rewards, depending on class are:
 			</p>
 			<div className="flex gap-4 flex-col md:flex-row">
 				<div className="border-2 p-6 md:w-1/2">
@@ -55,8 +54,14 @@ function LevelEight() {
 							src={FasterAttacks}
 							className="text-green-400 underline"
 						/>{' '}
-						also become available for purchase from Nessa. Feel free
-						to grab one as you need it.
+						also become available for purchase from Nessa. Feel free to grab one
+						as you need it (to be linked with{' '}
+						<Gem
+							content="Leap Slam"
+							src={LeapSlam}
+							className="text-red-400 underline"
+						/>{' '}
+						later).
 					</p>
 				</div>
 				<div className="border-2 p-6 md:w-1/2">
