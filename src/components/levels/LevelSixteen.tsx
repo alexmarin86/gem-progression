@@ -1,5 +1,6 @@
 import Gem from '../Gem'
 import HeraldOfAsh from '../../assets/gems/Herald_of_Ash_icon.png'
+import HeraldOfThunder from '../../assets/gems/Herald_of_Thunder_icon.png'
 import RighteousFire from '../../assets/gems/Righteous_Fire_icon.png'
 import BloodRage from '../../assets/gems/Blood_Rage_icon.png'
 
@@ -8,8 +9,8 @@ function LevelSixteen() {
 		<div className="flex flex-col gap-6">
 			<h2 className="text-2xl">Level 16 quest rewards</h2>
 			<p>
-				At level 16 we complete the quest "Intruders in black". The
-				rewards, depending on class are:
+				At level 16 we complete the quest "Intruders in black". The rewards,
+				depending on class are:
 			</p>
 			<div className="flex gap-4 flex-col md:flex-row">
 				<div className="border-2 p-6 md:w-1/2">
@@ -50,7 +51,7 @@ function LevelSixteen() {
 						/>
 						.
 					</p>
-					<p>
+					<p className="mb-4">
 						We can also purchase{' '}
 						<Gem
 							content="Righteous Fire"
@@ -58,6 +59,15 @@ function LevelSixteen() {
 							className="text-blue-400 underline"
 						/>{' '}
 						from Yeena.
+					</p>
+					<p>
+						If we have a spare Orb of Alteration we can purchase{' '}
+						<Gem
+							content="Herald of Thunder"
+							src={HeraldOfThunder}
+							className="text-blue-400 underline"
+						/>
+						, however this will only be useful for act 2.
 					</p>
 				</div>
 			</div>
