@@ -113,18 +113,6 @@ function LevelEight() {
 							src={FlameSurge}
 							className="text-blue-400 underline"
 						/>{' '}
-						setup, and{' '}
-						<Gem
-							content="Faster Attacks Support"
-							src={FasterAttacks}
-							className="text-green-400 underline"
-						/>{' '}
-						for the{' '}
-						<Gem
-							content="Leap Slam"
-							src={LeapSlam}
-							className="text-red-400 underline"
-						/>{' '}
 						setup.
 					</p>
 				</div>
