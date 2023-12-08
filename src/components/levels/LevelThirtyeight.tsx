@@ -8,8 +8,8 @@ function LevelThirtyeight() {
 		<div className="flex flex-col gap-6">
 			<h2 className="text-2xl">Level 38 quest rewards</h2>
 			<p>
-				At level 38 we complete the quest "The Eternal Nightmare". The
-				rewards, depending on class are:
+				At level 38 we complete the quest "The Eternal Nightmare". The rewards,
+				depending on class are:
 			</p>
 			<div className="flex gap-4 flex-col md:flex-row">
 				<div className="border-2 p-6 md:w-1/2">
@@ -27,7 +27,8 @@ function LevelThirtyeight() {
 							src={Efficacy}
 							className="text-blue-400 underline"
 						/>{' '}
-						with it for more clear.
+						with it for more clear (
+						<strong>optional, skip if you feel you lack damage</strong>).
 					</p>
 				</div>
 				<div className="border-2 p-6 md:w-1/2">
@@ -39,8 +40,8 @@ function LevelThirtyeight() {
 							content="Immolate Support"
 							className="text-blue-400 underline"
 						/>{' '}
-						and slot it in our Armageddon Brand link group. You may
-						also purchase{' '}
+						and slot it in our Armageddon Brand link group. You may also
+						purchase{' '}
 						<Gem
 							content="Increased Area of Effect Support"
 							src={IncAoe}

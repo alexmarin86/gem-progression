@@ -28,7 +28,10 @@ function App() {
 				<section className="w-full md:w-3/4 mx-auto">
 					<div className="px-8 flex flex-col gap-8">
 						<span className="text-red-500 text-xl text-center">
-							Updated for 3.22
+							Updated for 3.23
+							<small className="flex justify-center text-sm">
+								Very minor changes since the patch doesn't affect leveling much.
+							</small>
 						</span>
 						<div>
 							<p>

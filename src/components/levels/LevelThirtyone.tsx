@@ -115,7 +115,8 @@ function LevelThirtyone() {
 							src={FireTrap}
 							className="text-green-400 underline"
 						/>{' '}
-						and level it for the RF transition after cruel lab, as well as{' '}
+						and level it in weapon swap (it will later be your single target),
+						as well as{' '}
 						<Gem
 							content="Faster Attacks Support"
 							src={FasterAttacks}

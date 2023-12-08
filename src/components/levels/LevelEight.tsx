@@ -65,7 +65,7 @@ function LevelEight() {
 					</p>
 				</div>
 				<div className="border-2 p-6 md:w-1/2">
-					<p>
+					<div>
 						<span className="font-semibold">As a templar </span>
 						you have two options:
 						<ul className="mt-1 ml-4 list-disc">
@@ -99,7 +99,7 @@ function LevelEight() {
 								setup.
 							</li>
 						</ul>
-					</p>
+					</div>
 					<p>
 						Remember to purchase{' '}
 						<Gem
