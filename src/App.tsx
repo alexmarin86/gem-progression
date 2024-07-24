@@ -28,9 +28,14 @@ function App() {
         <section className="mx-auto w-full md:w-3/4">
           <div className="flex flex-col gap-8 px-8">
             <span className="text-center text-xl text-red-500">
-              Updated for 3.24
-              <small className="flex justify-center text-sm">
-                Added Punishment to level 24 marauder rewards for Chieftain.
+              Updated for 3.25
+              <small className="block text-center text-sm">
+                Added Elemental Proliferation Support as level 4 muling info for
+                marauder.
+              </small>
+              <small className="block text-center text-sm">
+                Removed Herald of Ash from the reward pool for level 16 since it
+                is no longer useful for RF.
               </small>
             </span>
             <div>
